@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&family=Mate+SC&family=Slabo+27px&display=swap');
+
+.addPaperButton {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(to right, #872ba3, #4d2b63, #3f2430);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+    margin-left: 0.2rem;
+    margin-top: 1.3rem;
+    position: sticky;
+    align-self: flex-end;
+}
+
+.addPaperButton svg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+   
+.addPaperButton span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+   
+.addPaperButton:hover svg {
+    transform: translateX(5px) rotate(90deg);
+}
+   
+.addPaperButton:hover span {
+    transform: translateX(7px);
+}
+.subjNameText{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+}
+.noOfPapersText{ 
+    font-size: 1.3rem;
+    color: black;
+
+}
+.previewPaper {
+    width: 9em;
+    height: 3em;
+    margin: 0 2em 1em 2em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+}
+   
+.previewPaper::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+   
+.previewPaper:hover::before {
+    width: 9em;
+}
+
+.viewPaper{
+    font-family: 'Mate SC', serif;
+    font-weight: bold;
+}
+ 
+.cardContainerShadow{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ 

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+.questionText{
+    margin-left: 1rem;
+    font-weight: bold;
+    font-family: 'Slabo 27px', serif; 
+    letter-spacing: 1px;
+} 
+.answerText{ 
+    margin-left: 1.2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 1px;
+}
+.marksText{
+    margin-left: 1.2rem;
+    font-weight: bold;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 1px;
+}
+.optionsText{
+    margin: 0.4rem;
+    font-size: 1.2rem;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 1px;
+}
+ul{
+    margin-left: 1rem;
+}
+li::marker{
+    font-size: 2rem;
+}

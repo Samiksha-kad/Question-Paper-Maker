@@ -1,0 +1,35 @@
+
+  .loginCss{
+    width:33vw;
+    margin:130px auto;  
+    padding:20px;
+    background: rgba( 250, 250, 250, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  } 
+
+  .loginCss>*{
+    margin:15px 0px;
+  }
+  
+  .button_fun:hover{
+    cursor:pointer;
+    transform:scale(1.03);
+    filter:brightness(110%)
+  }
+  
+  @media screen and (max-width: 1000px) {
+  
+    .loginCss{
+      width:50vw;
+    }
+  }
+    
+    @media screen and (max-width: 500px) {
+      
+      .loginCss{
+        width:80vw;
+      }
+      
+      }
+   

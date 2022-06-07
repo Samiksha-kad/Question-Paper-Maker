@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&family=Mate+SC&family=Port+Lligat+Slab&family=Slabo+27px&family=Solway&display=swap');
+.questionText{
+    margin: 2.2rem;
+    margin-left: 5.3rem;
+    margin-bottom: 1.2rem;
+    font-family: 'Port Lligat Slab', serif;
+    letter-spacing: 1px;
+}
+ 
+li::marker{
+    font-size: 1.8rem;
+}
+.boolenText{
+    margin-left: 15.2rem;
+}
+.answerText{
+    margin-left: 15.5rem;
+    margin-top: 1.2rem;
+    font-family: 'Port Lligat Slab', serif;
+    letter-spacing: 1px;
+
+}
+
+.optionsText{
+    margin-left: 15.5rem;
+    margin-top: 1.2rem; 
+    font-size: 1.2rem;
+}
+
+.containerPage{
+    margin:2rem;
+    border: 2px solid black;
+}
+
+.openEditText{
+    margin-top: 2.2rem;
+    margin: 1.2rem;
+}
+.headingSubjectName{
+    font-family: 'Port Lligat Slab', serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom:"10px";
+    margin-top: "10px";
+}
+ 
